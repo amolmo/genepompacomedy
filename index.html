@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Gene Pompa</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet"></head>
+<body>
+
+    <!-- Header Showcase -->
+    <nav class="navbar">
+		<span class="open-slide">
+		  <a href="#" onclick="openSlideMenu()">
+			<svg width="30" height="30">
+				<path d="M0,5 30,5" stroke="#d6d6d6" stroke-width="5"/>
+				<path d="M0,14 30,14" stroke="#d6d6d6" stroke-width="5"/>
+				<path d="M0,23 30,23" stroke="#d6d6d6" stroke-width="5"/>
+			</svg>
+		  </a>
+		</span>
+        <ul class="navbar-nav">
+		  <li><a href="#showcase">HOME</a></li>
+		  <li><a href="#section-c">CONNECT</a></li>
+		  <li><a href="#section-b">MEDIA</a></li>
+		  <li><a href="#section-a">CONTACT</a></li>
+      <li><a href="#section-d">ABOUT</a></li>
+		 </ul>
+	  </nav>
+
+
+	  <div id="side-menu" class="side-nav">
+		<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+		<a href="#showcase">HOME</a>
+		<a href="#section-c">CONNECT</a>
+		<a href="#section-b">MEDIA</a>
+    <a href="#section-a">CONTACT</a>
+    <a href="#section-d">ABOUT</a>
+  </div>
+
+    <header id="showcase" class="grid">
+      <div class="bg-img"></div>
+      <img src="images/gp.jpeg" alt="" class="bg-image">
+
+      <div class="content-wrap">
+        <h1 style="font-size:10vw;">GENE POMPA</h1>
+        <h2 style="font-size:3vw;"><small>Comedian, Writer, and Actor</small></h2>
+      </div>
+    </header>
+
+    <section id="boxes">
+      <div class="wrapper">
+          <div class="box box1"><a href="https://twitter.com/genepompa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><button class="btn"><i class="fab fa-twitter-square"></i> TWITTER</button></a></div>
+          <div class="box box2"><a href="https://www.facebook.com/Gene-Pompa-Comedy-151790128210962/"><button class="btn"><i class="fab fa-facebook-square"></i> FACEBOOK</button></a></div>
+          <div class="box box4"><a href="http://www.laughfactory.com/GenePompa"><button class="btn"><i class="fas fa-external-link-square-alt"></i> LAUGH FACTORY</button></a></div>
+          <div class="box box3"><a href="https://www.imdb.com/name/nm1617115/?ref_=tt_ov_st_sm"><button class="btn"><i class="fab fa-imdb"></i> IMDb</button></a></div>
+          <div class="box box5"><i class="fas fa-arrow-down"></i></div>
+        </div>
+    </section>
+
+
+
+    <!-- Main Area -->
+    <main id="main">
+
+  <!-- Section C -->
+  <section id="section-c" class="grid">
+    <h2 class="content-title">CONNECT</h2>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="images/pexels-photo-164829.jpeg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">UPCOMING SHOWS</h3>
+            <p>Catch an upcoming show near you.</p>
+            <a href="https://www.facebook.com/pg/Gene-Pompa-Comedy-151790128210962/events/?ref=page_internal" class="btn">EVENTS</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="images/crcd.png" alt="">
+          <div class="card-content">
+            <h3 class="card-title">GET THE ALBUM</h3>
+            <p>Crude Rude Chicano Dude and buy the shirts.</p>
+             <a href="https://www.amazon.com/Crude-Rude-Chicano-Dude-Explicit/dp/B01N4V6WUY/ref=sr_1_1?s=beauty&ie=UTF8&qid=1540348463&sr=8-1&keywords=crude+rude+chicano+dude" class="btn">BUY NOW</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="images/pexels-photo-102129.jpeg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">NEW MERCH</h3>
+            <p>Gene Pompa's shirt designs are now available.</p>
+            <a href="" class="btn">SEE SHIRTS</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- Section B -->
+  <section id="section-b">
+    <h2 class="content-title">MEDIA</h2>
+
+    <script src="//www.powr.io/powr.js?external-type=html"></script>
+    <div class="powr-video-slider" id="d1dc0ba9_1541183414"></div>
+
+  </section>
+
+  <hr>
+
+  <!--Section A(moved)-->
+  <section id="section-a">
+    <div class="contact-title">
+      <h2>CONTACT</h2>
+      <p>Get in touch with Gene below:</p>
+    </div>
+
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="contact-form-handler.php">
+      <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+      <br>
+      <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+      <br>
+      <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+
+      <input type="submit" class="form-control submit" value="SEND MESSAGE">
+      </form>
+    </div>
+  </section>
+
+<hr>
+
+  <!-- Section D -->
+  <section id="section-d" class="grid">
+   <div class="box">
+      <h2 class="content-title">ABOUT</h2>
+      <a id='SWeOlkV9THVTJiSv1PtHdw' class='gie-single' href='http://www.gettyimages.ie/detail/521280956' target='_blank' style='color:#2b2b2b;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'SWeOlkV9THVTJiSv1PtHdw',sig:'V0jwEaepQ44JfZ-lP3caWa4FnbmyqIiBlq1_ep40sn0=',w:'412px',h:'594px',items:'521280956',caption: false ,tld:'ie',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script>
+   </div>
+
+    <div class="box">
+      <div class="content-text">
+        <p>Comedian and Writer, Gene Pompa’s television credits include numerous
+          appearances on <b>LATE NIGHT WITH CONAN O’BRIEN</b> and several appearances on
+          <b>THE LATE, LATE SHOW</b> on <b>CBS</b>. Other credits include, <b>COMEDY CENTRAL, THE
+          ARSENIO HALL SHOW, HBO, THE LATINO LAUGH FESTIVAL</b> on <b>SHOWTIME, BET,
+          SCRUBS</b> and <b>IN LIVING COLOR.</b></p>
+
+    		<p>He recently appeared in two <b>HAPPY MADISON</b> films “Just Go With It” with
+          Adam Sandler and Jennifer Aniston and “Bucky Larson: Born To Be A Star”
+          starring Nick Swardson, Christina Ricci, and Don Johnson.</p>
+
+    		<p>More recently, Gene starred and produced two one hour comedy specials at
+          The Club Nokia in Downtown Los Angeles at L.A. Live. He also starred in
+          two ½ hour solo stand-up specials, <b>“POMPALICIOUS”</b> for <b>COMEDY CENTRAL</b> and
+          a self-titled ½ hour stand-up special for Nuvo TV. Gene’s offbeat
+          perspective seems to go over extremely well with the college age audience
+          and crosses all racial and ethnic lines. He headlines regularly at comedy
+          clubs across the country; doing a stand-up show with great social relevance
+          and irrelevance.</p>
+
+    		<p>Gene was born in East Los Angeles and raised in the working-class suburbs
+          of Southern California. He’s been a Mexican-American for most of his life,
+          except for a few years during the 70’s, when he was a “practicing Chicano.”
+          As a product of the multi-ethnic suburbs of Los Angeles, Gene was inspired
+          to utilize universal themes in his stand-up and his writing.</p>
+      </div>
+    </div>
+   </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="grid">
+    <div class="footer-social-icons">
+      <ul class="social-icons">
+          <li><a href="https://www.facebook.com/Gene-Pompa-Comedy-151790128210962/" class="social-icon"> <i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/genepompa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCUWZfqJNA076Kx6acniHfuw" class="social-icon"> <i class="fab fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <div><h2>GENE POMPA 2019. Theme by <a href="https://www.andriaolmo.com/" target="_blank">Andria Olmo</a><h2></div>
+  </footer>
+
+<script type="text/javascript"></script>
+
+<script>
+function openSlideMenu(){
+  document.getElementById('side-menu').style.width = '250px';
+  document.getElementById('main').style.marginLeft = '0px';
+}
+
+
+function closeSlideMenu(){
+  document.getElementById('side-menu').style.width = '0';
+  document.getElementById('main').style.marginLeft = '0';
+}
+</script>
+
+
+</body>
+</html>
